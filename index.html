@@ -1,5 +1,210 @@
-<h1>Wawira Scents</h1>
-<h2> Welcome to Wawira Scents</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mavira Scents</title>
+<style>
+h1
+{
+color:red;
+text-align:center;
+font-family:Arial;
+}
+.highlight
+{
+font-weight:bold;
+background-color:yellow;
+font-size:20px;
+}
+.box-model
+{
+margin:20px;
+padding:10px;
+border:2px solid black;
+}
+@media(max-width:600px)
+{
+body
+{
+background-color:lightblue;
+}
+}
+.banner
+{
+background-image:url("https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+height:250px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+font-weight:bold;
+}
+button
+{
+background-color:blue;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+transition:background-color 0.5s;
+}
+button:hover
+{
+background-color:green;
+}
+.relative-box
+{
+position:relative;
+top:10px;
+left:10px;
+background-color:#f8f8f8;
+padding:10px;
+border:1px solid #999;
+width:200px;
+border-radius:6px;
+box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+.absolute-box
+{
+position:absolute;
+top:80px;
+left:250px;
+background-color:#eaeaea;
+padding:10px;
+border:1px solid #999;
+width:200px;
+border-radius:6px;
+box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+.px-size{font-size:16px;}
+.em-size{font-size:1.5em;}
+.rem-size{font-size:1.5rem;}
+.layout
+{
+display:flex;
+gap:10px;
+margin:20px;
+}
+.column
+{
+flex:1;
+background-color:#f9f9f9;
+padding:20px;
+text-align:center;
+border:1px solid black;
+}
+.rgb{color:rgb(255,0,0);}
+.hex{color:#00ff00;}
+.hsl{color:hsl(240,100%,50%);}
+body
+{
+background-color:#ffffff;
+font-family:Arial;
+margin:0;
+padding:20px;
+color:black;
+}
+h2
+{
+color:black;
+}
+ul
+{
+color:black;
+}
+table
+{
+width:80%;
+margin:20px auto;
+border-collapse:collapse;
+}
+th,td
+{
+border:1px solid black;
+padding:10px;
+text-align:center;
+}
+th
+{
+background-color:#cccccc;
+}
+tr:nth-child(even)
+{
+background-color:#f2f2f2;
+}
+footer
+{
+background-color:black;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:30px;
+}
+nav ul
+{
+list-style:none;
+display:flex;
+justify-content:center;
+gap:20px;
+padding:0;
+}
+nav a
+{
+text-decoration:none;
+color:white;
+background-color:#333;
+padding:8px 15px;
+border-radius:5px;
+}
+nav a:hover
+{
+background-color:green;
+}
+.color-formats
+{
+text-align:center;
+margin-top:50px;
+margin-bottom:50px;
+}
+.color-formats h3
+{
+color:4a235a;
+margin-bottom:10px;
+}
+.rgb
+{
+color:rgb(255,0,0);
+}
+.hex
+{
+color:#00ff00;
+}
+.hsl
+{
+color:hsl(240,100%,50%);
+}
+</style>
+</head>
+<body>
+<header>
+<div class="banner">Wawira Scents</div>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#tips">Perfume Tips</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#contact">Contact</a></li>
+ </ul>
+</nav>
+</header>
+<main id="home">
+<h1>Welcome To Wawira Scents</h1>
+<p>At Wawira Scents, we bring you a curated selection of luxurious perfumes crafted with passion and elegance. Discover fragrances that tell your story and leave a lasting impresion wherever you go.</p>
+<p class="highlight">Special Offer: Get 20% off all designer perfumes this week only! Visit our store or shop online to enjoy exclusive discount.</p>
 <h2>Porpular Perfume Types</h2>
 <ul>
 <li>Arabic Perfumes- rich, oud-based,long lasting</li>
@@ -8,14 +213,26 @@
 <li>Everyday Perfumes-light and fresh for daily use</li>
 </ul>
 <p>Discover our exquisite collection of premium perfumes and fragrances.Each scent tells a unigue story,crafted with the finest ingredients to create unforgettable experiences.</p>
+<div style="text-align:center;margin:20px 0;">
+<button>Shop Now</button>
+</div>
+<h1 id="Products">Our Top Products</h1>
+<h2>Our Top Perfumes</h2>
+<ul>
+<li>Arabic Oud</li>
+<li>Versace Eros</li>
+<li>Dior Savage</li>
+<li>Gucci Bloom</li>
+<li>Burberry Her</li>
+<li>Tom Ford Oud Wood</li>
 <h2>Arabic perfumes</h2>
 <p>Arabic perfumes are known for their rich and long lasting scents. They often blend natural ingredients like musk, rose,oud,vanilla</p>
 <a href="https://glowsecret.co.ke/collections/oud-scent">Visit Site</a>
 <img src="https://www.swornies.co.ke/wp-content/uploads/2024/08/Untitled-design-2.png" alt="Description" width="300">
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RB2CkMcHLYw?si=gMlaOymrykP9H8So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RB2CkMcHLYw?si=gMlaOymrykP9H8So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </br>
-<h2>How to choose a perfume</h2>
+<h2 id="tips">Perfume Tips</h2>
 <ol>
 <li>Test the perfume on the your skin, not just on paper.</li>
 <li>Start with light scents before trying stronger ones</li>
@@ -41,9 +258,42 @@
 <tr>
 <td>Rose Oud</td>
 <td>Ksh4000</td>
-<td>5 stars</td>>
+<td>5 stars</td>
 </table>
 </tr>
+<div class="box-model">
+This section shows the box model with margin,padding,and border applied.
+</div>
+<section class="position-demo">
+<h3>Absolute vs Relative Positioning</h3>
+<p>This example shows how relative and absolute positioning behave differently.</p>
+<div class="relative-box">This is a relative box.</div>
+<div class="absolute-box">This is an absolute box</div>
+</section>
+<section class="color-formtas">
+<h3>Our color inspiration</h3>
+<p class="rgb">Our passion for beauty and confidence burns like this red color</p>
+<p class="hex">Freshness and growth inspired us just like this lovely green tone</p>
+<p class="hsl">Elegance, calm, and class flow through every fragrance as this blue shade</p>
+</section>
+</main>
+<footer id="contact">
+<h3>Contact Us</h3>
+<p>Email: info@wawirascents.com</p>
+<p>Phone: +254 700 123 456 / +254 799 654 321</p>
+<p>Address: Wawira Scents Store, Moi Avenue, Nairobi, Kenya</p>
+<p>Open Hours: Monday – Saturday | 8:00 AM – 6:00 PM</p>
+<p>Follow us on:
+<a href="https://www.instagram.com" target="_blank" style="color:yellow;">Instagram</a> |
+<a href="https://www.facebook.com" target="_blank" style="color:yellow;">Facebook</a> |
+<a href="https://www.twitter.com" target="_blank" style="color:yellow;">Twitter</a>
+</p>
+<p>&copy; 2025 Wawira Scents. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+
 
 
 
