@@ -1,0 +1,83 @@
+.color-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.color-table th,
+.color-table td {
+  padding: 10px;
+}
+
+.color-table th:nth-child(1),
+.color-table td:nth-child(1) {
+  background-color: #003399;
+  color: white;
+}
+
+.color-table th:nth-child(2),
+.color-table td:nth-child(2) {
+  background-color: #3366cc;
+  color: white;
+}
+
+.color-table th:nth-child(3),
+.color-table td:nth-child(3) {
+  background-color: #6699ff;
+  color: white;
+}
+
+.color-table th:nth-child(4),
+.color-table td:nth-child(4) {
+  background-color: #99ccff;
+  color: black;
+}
+
+.color-table th:nth-child(5),
+.color-table td:nth-child(5) {
+  background-color: #cce5ff;
+  color: black;
+}
+
+.second-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.second-table th,
+.second-table td {
+  padding: 10px;
+}
+
+.second-table th:nth-child(1),
+.second-table td:nth-child(1) {
+  background-color: #006666;
+  color: white;
+}
+
+.second-table th:nth-child(2),
+.second-table td:nth-child(2) {
+  background-color: #009999;
+  color: white;
+}
+
+.second-table th:nth-child(3),
+.second-table td:nth-child(3) {
+  background-color: #33cccc;
+  color: black;
+}
+
+.second-table th:nth-child(4),
+.second-table td:nth-child(4) {
+  background-color: #66ffff;
+  color: black;
+}
+
+.second-table th:nth-child(5),
+.second-table td:nth-child(5) {
+  background-color: #99ffff;
+  color: black;
+}
