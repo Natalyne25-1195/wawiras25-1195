@@ -1,83 +1,76 @@
-.color-table {
+.color-table, .second-table {
   border-collapse: collapse;
   width: 80%;
   margin: 10px 0;
   text-align: center;
+  border: 2px solid #ccc;
 }
 
-.color-table th,
-.color-table td {
+.color-table th, .color-table td,
+.second-table th, .second-table td {
   padding: 10px;
+  border: 1px solid #ccc;
+  color: #000;
+  font-weight: bold;
 }
 
-.color-table th:nth-child(1),
-.color-table td:nth-child(1) {
-  background-color: #003399;
-  color: white;
-}
+.color-table th:nth-child(1) { background-color: #ff6666; color: white; }
+.color-table th:nth-child(2) { background-color: #ff9933; color: white; }
+.color-table th:nth-child(3) { background-color: #ffcc33; color: black; }
+.color-table th:nth-child(4) { background-color: #99cc33; color: black; }
+.color-table th:nth-child(5) { background-color: #33cccc; color: black; }
 
-.color-table th:nth-child(2),
-.color-table td:nth-child(2) {
-  background-color: #3366cc;
-  color: white;
-}
+.color-table tr:nth-child(2) td:nth-child(1) { background-color: #ff99cc; }
+.color-table tr:nth-child(2) td:nth-child(2) { background-color: #cc99ff; }
+.color-table tr:nth-child(2) td:nth-child(3) { background-color: #99ccff; }
+.color-table tr:nth-child(2) td:nth-child(4) { background-color: #99ffff; }
+.color-table tr:nth-child(2) td:nth-child(5) { background-color: #ccff99; }
 
-.color-table th:nth-child(3),
-.color-table td:nth-child(3) {
-  background-color: #6699ff;
-  color: white;
-}
+.color-table tr:nth-child(3) td:nth-child(1) { background-color: #ff9999; }
+.color-table tr:nth-child(3) td:nth-child(2) { background-color: #ffcc99; }
+.color-table tr:nth-child(3) td:nth-child(3) { background-color: #ffff99; }
+.color-table tr:nth-child(3) td:nth-child(4) { background-color: #ccffcc; }
+.color-table tr:nth-child(3) td:nth-child(5) { background-color: #99ccff; }
 
-.color-table th:nth-child(4),
-.color-table td:nth-child(4) {
-  background-color: #99ccff;
-  color: black;
-}
+.color-table tr:nth-child(4) td:nth-child(1) { background-color: #ffb3b3; }
+.color-table tr:nth-child(4) td:nth-child(2) { background-color: #ffe0b3; }
+.color-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffb3; }
+.color-table tr:nth-child(4) td:nth-child(4) { background-color: #b3ffcc; }
+.color-table tr:nth-child(4) td:nth-child(5) { background-color: #b3e6ff; }
 
-.color-table th:nth-child(5),
-.color-table td:nth-child(5) {
-  background-color: #cce5ff;
-  color: black;
-}
+.color-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcccc; }
+.color-table tr:nth-child(5) td:nth-child(2) { background-color: #ffd9b3; }
+.color-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffcc; }
+.color-table tr:nth-child(5) td:nth-child(4) { background-color: #ccffe6; }
+.color-table tr:nth-child(5) td:nth-child(5) { background-color: #cce5ff; }
 
-.second-table {
-  border-collapse: collapse;
-  width: 80%;
-  margin: 10px 0;
-  text-align: center;
-}
+.second-table th:nth-child(1) { background-color: #006666; color: white; }
+.second-table th:nth-child(2) { background-color: #009999; color: white; }
+.second-table th:nth-child(3) { background-color: #33cccc; color: black; }
+.second-table th:nth-child(4) { background-color: #66ffff; color: black; }
+.second-table th:nth-child(5) { background-color: #99ffff; color: black; }
 
-.second-table th,
-.second-table td {
-  padding: 10px;
-}
+.second-table tr:nth-child(2) td:nth-child(1) { background-color: #ff9999; }
+.second-table tr:nth-child(2) td:nth-child(2) { background-color: #ffcc99; }
+.second-table tr:nth-child(2) td:nth-child(3) { background-color: #ffff99; }
+.second-table tr:nth-child(2) td:nth-child(4) { background-color: #ccffcc; }
+.second-table tr:nth-child(2) td:nth-child(5) { background-color: #99ccff; }
 
-.second-table th:nth-child(1),
-.second-table td:nth-child(1) {
-  background-color: #006666;
-  color: white;
-}
+.second-table tr:nth-child(3) td:nth-child(1) { background-color: #ffb3b3; }
+.second-table tr:nth-child(3) td:nth-child(2) { background-color: #ffe0b3; }
+.second-table tr:nth-child(3) td:nth-child(3) { background-color: #ffffb3; }
+.second-table tr:nth-child(3) td:nth-child(4) { background-color: #b3ffcc; }
+.second-table tr:nth-child(3) td:nth-child(5) { background-color: #b3e6ff; }
 
-.second-table th:nth-child(2),
-.second-table td:nth-child(2) {
-  background-color: #009999;
-  color: white;
-}
+.second-table tr:nth-child(4) td:nth-child(1) { background-color: #ffcccc; }
+.second-table tr:nth-child(4) td:nth-child(2) { background-color: #ffd9b3; }
+.second-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffcc; }
+.second-table tr:nth-child(4) td:nth-child(4) { background-color: #ccffe6; }
+.second-table tr:nth-child(4) td:nth-child(5) { background-color: #cce5ff; }
 
-.second-table th:nth-child(3),
-.second-table td:nth-child(3) {
-  background-color: #33cccc;
-  color: black;
-}
+.second-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcce6; }
+.second-table tr:nth-child(5) td:nth-child(2) { background-color: #ffe6b3; }
+.second-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffe6; }
+.second-table tr:nth-child(5) td:nth-child(4) { background-color: #ccfff2; }
+.second-table tr:nth-child(5) td:nth-child(5) { background-color: #e6f5ff; }
 
-.second-table th:nth-child(4),
-.second-table td:nth-child(4) {
-  background-color: #66ffff;
-  color: black;
-}
-
-.second-table th:nth-child(5),
-.second-table td:nth-child(5) {
-  background-color: #99ffff;
-  color: black;
-}
