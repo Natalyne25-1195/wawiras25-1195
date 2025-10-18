@@ -10,67 +10,65 @@
 .second-table th, .second-table td {
   padding: 10px;
   border: 1px solid #ccc;
-  color: #000;
   font-weight: bold;
 }
 
-.color-table th:nth-child(1) { background-color: #ff6666; color: white; }
-.color-table th:nth-child(2) { background-color: #ff9933; color: white; }
-.color-table th:nth-child(3) { background-color: #ffcc33; color: black; }
-.color-table th:nth-child(4) { background-color: #99cc33; color: black; }
-.color-table th:nth-child(5) { background-color: #33cccc; color: black; }
+.color-table th:nth-child(1) { background-color: #ff6666; color: #000000; }
+.color-table th:nth-child(2) { background-color: #ff9933; color: #004d00; }
+.color-table th:nth-child(3) { background-color: #ffcc33; color: #660066; }
+.color-table th:nth-child(4) { background-color: #99cc33; color: #003366; }
+.color-table th:nth-child(5) { background-color: #33cccc; color: #800000; }
 
-.color-table tr:nth-child(2) td:nth-child(1) { background-color: #ff99cc; }
-.color-table tr:nth-child(2) td:nth-child(2) { background-color: #cc99ff; }
-.color-table tr:nth-child(2) td:nth-child(3) { background-color: #99ccff; }
-.color-table tr:nth-child(2) td:nth-child(4) { background-color: #99ffff; }
-.color-table tr:nth-child(2) td:nth-child(5) { background-color: #ccff99; }
+.color-table tr:nth-child(2) td:nth-child(1) { background-color: #ff99cc; color: #003300; }
+.color-table tr:nth-child(2) td:nth-child(2) { background-color: #cc99ff; color: #330000; }
+.color-table tr:nth-child(2) td:nth-child(3) { background-color: #99ccff; color: #663300; }
+.color-table tr:nth-child(2) td:nth-child(4) { background-color: #99ffff; color: #660033; }
+.color-table tr:nth-child(2) td:nth-child(5) { background-color: #ccff99; color: #330066; }
 
-.color-table tr:nth-child(3) td:nth-child(1) { background-color: #ff9999; }
-.color-table tr:nth-child(3) td:nth-child(2) { background-color: #ffcc99; }
-.color-table tr:nth-child(3) td:nth-child(3) { background-color: #ffff99; }
-.color-table tr:nth-child(3) td:nth-child(4) { background-color: #ccffcc; }
-.color-table tr:nth-child(3) td:nth-child(5) { background-color: #99ccff; }
+.color-table tr:nth-child(3) td:nth-child(1) { background-color: #ff9999; color: #004d4d; }
+.color-table tr:nth-child(3) td:nth-child(2) { background-color: #ffcc99; color: #330033; }
+.color-table tr:nth-child(3) td:nth-child(3) { background-color: #ffff99; color: #000099; }
+.color-table tr:nth-child(3) td:nth-child(4) { background-color: #ccffcc; color: #660000; }
+.color-table tr:nth-child(3) td:nth-child(5) { background-color: #99ccff; color: #663366; }
 
-.color-table tr:nth-child(4) td:nth-child(1) { background-color: #ffb3b3; }
-.color-table tr:nth-child(4) td:nth-child(2) { background-color: #ffe0b3; }
-.color-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffb3; }
-.color-table tr:nth-child(4) td:nth-child(4) { background-color: #b3ffcc; }
-.color-table tr:nth-child(4) td:nth-child(5) { background-color: #b3e6ff; }
+.color-table tr:nth-child(4) td:nth-child(1) { background-color: #ffb3b3; color: #001a00; }
+.color-table tr:nth-child(4) td:nth-child(2) { background-color: #ffe0b3; color: #330000; }
+.color-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffb3; color: #333366; }
+.color-table tr:nth-child(4) td:nth-child(4) { background-color: #b3ffcc; color: #660066; }
+.color-table tr:nth-child(4) td:nth-child(5) { background-color: #b3e6ff; color: #990000; }
 
-.color-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcccc; }
-.color-table tr:nth-child(5) td:nth-child(2) { background-color: #ffd9b3; }
-.color-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffcc; }
-.color-table tr:nth-child(5) td:nth-child(4) { background-color: #ccffe6; }
-.color-table tr:nth-child(5) td:nth-child(5) { background-color: #cce5ff; }
+.color-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcccc; color: #003300; }
+.color-table tr:nth-child(5) td:nth-child(2) { background-color: #ffd9b3; color: #660000; }
+.color-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffcc; color: #000066; }
+.color-table tr:nth-child(5) td:nth-child(4) { background-color: #ccffe6; color: #330033; }
+.color-table tr:nth-child(5) td:nth-child(5) { background-color: #cce5ff; color: #663300; }
 
-.second-table th:nth-child(1) { background-color: #006666; color: white; }
-.second-table th:nth-child(2) { background-color: #009999; color: white; }
-.second-table th:nth-child(3) { background-color: #33cccc; color: black; }
-.second-table th:nth-child(4) { background-color: #66ffff; color: black; }
-.second-table th:nth-child(5) { background-color: #99ffff; color: black; }
+.second-table th:nth-child(1) { background-color: #006666; color: #ffcc00; }
+.second-table th:nth-child(2) { background-color: #009999; color: #ff6600; }
+.second-table th:nth-child(3) { background-color: #33cccc; color: #663300; }
+.second-table th:nth-child(4) { background-color: #66ffff; color: #330066; }
+.second-table th:nth-child(5) { background-color: #99ffff; color: #660000; }
 
-.second-table tr:nth-child(2) td:nth-child(1) { background-color: #ff9999; }
-.second-table tr:nth-child(2) td:nth-child(2) { background-color: #ffcc99; }
-.second-table tr:nth-child(2) td:nth-child(3) { background-color: #ffff99; }
-.second-table tr:nth-child(2) td:nth-child(4) { background-color: #ccffcc; }
-.second-table tr:nth-child(2) td:nth-child(5) { background-color: #99ccff; }
+.second-table tr:nth-child(2) td:nth-child(1) { background-color: #ff9999; color: #000066; }
+.second-table tr:nth-child(2) td:nth-child(2) { background-color: #ffcc99; color: #003333; }
+.second-table tr:nth-child(2) td:nth-child(3) { background-color: #ffff99; color: #660033; }
+.second-table tr:nth-child(2) td:nth-child(4) { background-color: #ccffcc; color: #663366; }
+.second-table tr:nth-child(2) td:nth-child(5) { background-color: #99ccff; color: #330000; }
 
-.second-table tr:nth-child(3) td:nth-child(1) { background-color: #ffb3b3; }
-.second-table tr:nth-child(3) td:nth-child(2) { background-color: #ffe0b3; }
-.second-table tr:nth-child(3) td:nth-child(3) { background-color: #ffffb3; }
-.second-table tr:nth-child(3) td:nth-child(4) { background-color: #b3ffcc; }
-.second-table tr:nth-child(3) td:nth-child(5) { background-color: #b3e6ff; }
+.second-table tr:nth-child(3) td:nth-child(1) { background-color: #ffb3b3; color: #004d00; }
+.second-table tr:nth-child(3) td:nth-child(2) { background-color: #ffe0b3; color: #660000; }
+.second-table tr:nth-child(3) td:nth-child(3) { background-color: #ffffb3; color: #000033; }
+.second-table tr:nth-child(3) td:nth-child(4) { background-color: #b3ffcc; color: #663300; }
+.second-table tr:nth-child(3) td:nth-child(5) { background-color: #b3e6ff; color: #003366; }
 
-.second-table tr:nth-child(4) td:nth-child(1) { background-color: #ffcccc; }
-.second-table tr:nth-child(4) td:nth-child(2) { background-color: #ffd9b3; }
-.second-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffcc; }
-.second-table tr:nth-child(4) td:nth-child(4) { background-color: #ccffe6; }
-.second-table tr:nth-child(4) td:nth-child(5) { background-color: #cce5ff; }
+.second-table tr:nth-child(4) td:nth-child(1) { background-color: #ffcccc; color: #330066; }
+.second-table tr:nth-child(4) td:nth-child(2) { background-color: #ffd9b3; color: #660000; }
+.second-table tr:nth-child(4) td:nth-child(3) { background-color: #ffffcc; color: #003300; }
+.second-table tr:nth-child(4) td:nth-child(4) { background-color: #ccffe6; color: #663366; }
+.second-table tr:nth-child(4) td:nth-child(5) { background-color: #cce5ff; color: #000066; }
 
-.second-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcce6; }
-.second-table tr:nth-child(5) td:nth-child(2) { background-color: #ffe6b3; }
-.second-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffe6; }
-.second-table tr:nth-child(5) td:nth-child(4) { background-color: #ccfff2; }
-.second-table tr:nth-child(5) td:nth-child(5) { background-color: #e6f5ff; }
-
+.second-table tr:nth-child(5) td:nth-child(1) { background-color: #ffcce6; color: #003333; }
+.second-table tr:nth-child(5) td:nth-child(2) { background-color: #ffe6b3; color: #660033; }
+.second-table tr:nth-child(5) td:nth-child(3) { background-color: #ffffe6; color: #330000; }
+.second-table tr:nth-child(5) td:nth-child(4) { background-color: #ccfff2; color: #000033; }
+.second-table tr:nth-child(5) td:nth-child(5) { background-color: #e6f5ff; color: #330066; }
